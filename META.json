@@ -1,12 +1,12 @@
 {
-   "abstract" : "Perl implementation of the GNU Classpath LinkedList.",
+   "abstract" : "simple implementation for using LinkedList data structure.",
    "author" : [
-      "Lloyd Griffiths (lloydg@cpan.org)"
+      "shinchit <shinchi.xx@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.143240",
    "license" : [
-      "perl_5"
+      "unknown"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -22,7 +22,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "Test::More" : "0"
          }
       },
       "configure" : {
@@ -33,18 +33,12 @@
       "runtime" : {
          "requires" : {
             "Carp" : "1.26",
-            "Iterator::Util" : "0.02",
-            "Storable" : "2.34",
-            "Test::Exception" : "0.31",
-            "Test::Simple" : "0.98"
+            "Class::Accessor" : "0.34",
+            "Scalar::Util" : "1.23",
+            "perl" : "5.006"
          }
       }
    },
    "release_status" : "stable",
-   "resources" : {
-      "repository" : {
-         "url" : "https://github.com/LloydGriffiths/Data-LinkedList"
-      }
-   },
    "version" : "0.01"
 }

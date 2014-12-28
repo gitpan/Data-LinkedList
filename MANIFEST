@@ -1,20 +1,17 @@
+Build.PL
 Changes
 lib/Data/LinkedList.pm
-lib/Data/LinkedList/Entry.pm
-lib/Data/LinkedList/Iterator/DescendingIterator.pm
-lib/Data/LinkedList/Iterator/ListIterator.pm
-LICENSE
+lib/Data/LinkedList/Cell.pm
+lib/Data/LinkedList/Iterator.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 README
-t/001_load.t
-t/002_lookups.t
-t/003_modifications.t
-t/004_clone.t
-t/005_store.t
-t/006_iterators.t
-t/007_exceptions.t
-t/008_parameter_checks.t
-Todo
+t/00-load.t
+t/01-new.t
+t/02-base.t
+t/boilerplate.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)
